@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Ether.js", "Solidity"],
-    ["Node.js", "TypeScript", "Framer Motion", "react-moralis", "web3.js"],
+    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "WordPress"],
+    ["Node.js", "TypeScript", "Framer Motion", "Bootstrap"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -18,7 +18,7 @@ export default function AboutMe(props) {
             <ArrowIcon className={"flex-none h-4 md:h-6 w-4 md:w-5 translate-y-[0.5px] text-AAsecondary"} />
             <span className="text-AAsecondary font-Header text-sm  sm:text-xl"> 01.</span>
             <span className="flex-none text-gray-200 opacity-85 font-bold tracking-wider text-lg sm:text-2xl pl-4">
-              About Me
+              Qui suis-je:
             </span>
           </div>
           <div className="bg-gray-400 h-[0.2px] w-full sm:w-72 ml-4"></div>
@@ -29,39 +29,35 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
-                would become essential in pursuing this interest, marking the start of my programming journey.
+                Bonjour! Je m&apos;appelle Alexandre, passionné par le numérique et son écosystème, j&apos;aime écrire
+                du code propre et des designs percutants. Mon parcours informatique a commencé quand j&apos;avais 10ans et
+                que j&apos;apprenais les rudiments du basic. Je ne devais renouer avec cette passion que tardivement, en
+                2022 ou je poussais les portes d&apos;Open Classrooms, marquant le début de ma nouvelle carrière.
               </span>
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
-                refine my expertise in desktop and web development. In the realm of{" "}
-                <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
-                advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
-                <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
-                learning drives me to make a positive impact and advance technology.
+                Depuis la fin de mon parcours diplomant, j&apos;ai été amené a travailler sur différents secteurs, me permettant de 
+                diversifier mon expertise dans le développement mobile et desktop. Dans ce vaste domaine du{" "}
+                <span className="text-AAsecondary">web3</span>, je voudrais continuer à apprendre et à contribuer activement à 
+                son avancée. Consolidant mon expérience au fur et à mesure de rencontres avec{" "}
+                <span className="text-AAsecondary">l&apos;Ostal Numérique</span>, dans leur création de site vitrine,{" "}
+                <span className="text-AAsecondary">HDM-canoë</span> , avec intégration de solutions de paiement et 
+                réservations en ligne sur une base de loisirs nautique dans un camping.
               </span>
             </div>
-            {/* <div className="font-Header tracking-wide">
+            <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
-                Fast-forward to today, I&apos;ve had the privilege of working at
-                <span className="text-AAsecondary"> a huge manufacturing company</span>,
-                <span className="text-AAsecondary"> a start-up</span>,{" "}
-                <span className="text-AAsecondary">export-import companies</span>, also
-                <span className="text-AAsecondary"> freelancing</span> and recently as Lead for the{" "}
-                <span className="text-AAsecondary">Google Developer Student club</span>. Experienced in Desktop & Web
-                Development, lately with Arduino Development. My main focus these days is creating and testing{" "}
-                <span className="text-AAsecondary">Smart Contracts</span> with Hardhat.
+                Je m&apos;établi aujourd&apos;hui en tant que freelance avec des amis,,
+                <span className="text-AAsecondary"> Eulatech</span>, un collectif de développeurs et designers, 
+                <span className="text-AAsecondary">spécialistes</span>, dans la transition numérique des entreprises.
+                <span className="text-AAsecondary"> freelancing</span> pour les entreprises de toutes tailles et tout secteur{" "}
               </span>
-            </div> */}
+            </div>
 
             <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
-                Here are a few technologies I&apos;ve been working with recently :
+                Voici les technologies que j&apos;appréhende le plus souvent dans mes projets:
               </span>
             </div>
             <div className="font-Header tracking-wide flex flex-row space-x-16">

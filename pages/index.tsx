@@ -32,7 +32,7 @@ export default function Home() {
 
   // check if NEXT_PUBLC_BLACKLIST_COUNTRIES is empty
   const [IsBlackListEmpty, setIsBlackListEmpty] = useState(
-    process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES === "" ? true : false
+   true
   );
 
   // this userEffect will be called to get the user location, so we can check if he is from the blackList,
@@ -68,7 +68,7 @@ export default function Home() {
         // check if the user country is in the blackList
         if (process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES.includes(userData.country)) {
           // set isBlackListed to true
-          setIsBlackListed(true);
+          setIsBlackListed(false);
         }
       }
     }

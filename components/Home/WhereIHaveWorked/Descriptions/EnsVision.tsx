@@ -5,20 +5,20 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function EnsVision() {
   const tasks = [
     {
-      text: "Worked on the front-end development in the web3 domain using Next.js, Alchemy, Tailwind CSS, Wagmi, Web3.js, Moralis, Ethers.js",
-      keywords: ["Alchemy", "Wagmi", "Web3.js", "Moralis", "Ethers.js"],
+      text: "Etude de projet et mise en place d'une suite de solutions numériques avec HTML, CSS, JS, GUIDAP.",
+      keywords: ["HTML", "CSS", "JS"],
     },
     {
-      text: "Conducted testing tasks to ensure website functionality and quality. Managed a large user base on the website",
+      text: "Approche itérative des besoins des utilisateurs et des parties prenantes pour garantir la qualité des solutions.",
       keywords: ["quality", "testing tasks", "user base"],
     },
     {
-      text: "Implemented website design and enhanced interactivity.",
+      text: "Responsivité et Dynamisme des pages web pour une meilleure expérience utilisateur.",
       keywords: ["website design"],
     },
     {
-      text: "Collaborated closely with the team in regular meetings and interacted with smart contracts and gained expertise in ENS",
-      keywords: ["smart contracts", "ENS"],
+      text: "Intégration d'une solution adaptée pour la gestion d'un parc de canoe et paiements sécurisés en ligne.",
+      keywords: ["secure payments", "GUIDAP"],
     },
   ];
 
@@ -28,10 +28,10 @@ export default function EnsVision() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ web3</span>
+            Mission Freelance <span className="text-AAsecondary"></span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Dec 2022 - Jun 2023</span>
+          <span className="font-mono text-xs text-gray-500">Avr 2024 - Jun 2024</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
