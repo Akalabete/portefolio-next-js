@@ -11,13 +11,13 @@ const ClickableIcon = props => {
   );
 };
 const IconsData = [
-  { href: "https://github.com/hktitof", Icon: GithubIcon },
-  { href: "https://www.linkedin.com/in/abdellatif-anaflous/", Icon: LinkedinIcon },
+  { href: "https://github.com/Akalabete", Icon: GithubIcon },
+  { href: "https://www.linkedin.com/in/lacour-alexandre", Icon: LinkedinIcon },
   { href: "https://www.instagram.com/titof_abdo/", Icon: InstagramIcon },
   { href: "https://www.youtube.com/@abdellatif_anaflous", Icon: YoutubeIcon },
 ];
 
-export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop: boolean }) {
+export default function Footer(props: { githubUrl: string; hideSocialsInDesktop: boolean }) {
   return (
     <div className="bg-AAprimary flex flex-col justify-center items-center py-8 space-y-4">
       {/* // ? Reach me at */}
@@ -32,7 +32,7 @@ export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop:
     text-sm  space-y-2  "
         >
           <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
-            Built by Anaflous Abdellatif
+            Dev&apos;your Synergy <a href="https://www.eulatech.fr">Eulatech</a>
           </span>
 
           <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">
