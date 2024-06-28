@@ -5,16 +5,16 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function SuperBerry() {
   const tasks = [
     {
-      text: "Designed and Built user-friendly customizable static web application using ReactJS, TailwindCSS v1, and TypeScript.",
-      keywords: ["ReactJS", "TailwindCSS v1", "TypeScript"],
+      text: "Apprentissage des languages de programmation web, HTML, CSS, JS, REACTJs",
+      keywords: ["ReactJS", "CSS", "JS", "HTML"],
     },
     {
-      text: "upgraded the web application for better SEO with Next.js and exploiting the server-side rendering benefits.",
-      keywords: ["Next.js"],
+      text: "Organisation, plannification et gestion de projet en méthodes Agiles.",
+      keywords: ["Agiles", "gestion de projet", "plannification", "organisation"],
     },
     {
-      text: "Provided technical support and troubleshoots errors and/or problems with web based applications.",
-      keywords: ["technical support","troubleshoots"],
+      text: "Divers projets structurés en utilisant notamment, NextJs, Redux, Git...",
+      keywords: ["NextJs", "Redux", "Git"],
     },
   ];
 
@@ -24,10 +24,10 @@ export default function SuperBerry() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ Web App</span>
+            Etudiant <span className="text-AAsecondary">@ OpenClassrooms</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">June - August 2020</span>
+          <span className="font-mono text-xs text-gray-500">Février 2023 - Novembre 2023</span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}

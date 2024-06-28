@@ -6,19 +6,19 @@ export default function EnsVision() {
   const tasks = [
     {
       text: "Etude de projet et mise en place d'une suite de solutions numériques avec HTML, CSS, JS, GUIDAP.",
-      keywords: ["HTML", "CSS", "JS"],
+      keywords: ["projet", "solutions","HTML","CSS","JS", "GUIDAP"],
     },
     {
       text: "Approche itérative des besoins des utilisateurs et des parties prenantes pour garantir la qualité des solutions.",
-      keywords: ["quality", "testing tasks", "user base"],
+      keywords: ["itérative", "besoins", "qualité", "solutions"],
     },
     {
       text: "Responsivité et Dynamisme des pages web pour une meilleure expérience utilisateur.",
-      keywords: ["website design"],
+      keywords: ["responsivité", "dynamisme", "expérience utilisateur"],
     },
     {
       text: "Intégration d'une solution adaptée pour la gestion d'un parc de canoe et paiements sécurisés en ligne.",
-      keywords: ["secure payments", "GUIDAP"],
+      keywords: ["paiements sécurisés", "solution adaptée", "gestion d'un parc"],
     },
   ];
 
@@ -28,17 +28,17 @@ export default function EnsVision() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Mission Freelance <span className="text-AAsecondary"></span>
+            Webmaster <span className="text-AAsecondary"></span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Avr 2024 - Jun 2024</span>
+          <span className="font-mono text-xs text-gray-500">Avr 2024 - Juin 2024</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
-            onClick={() => window.open("https://www.ens.vision/", "_blank")}
+            onClick={() => window.open("https://www.hdm-canoe.fr", "_blank")}
           >
-            www.ens.vision
+            www.hdm-canoe.fr
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

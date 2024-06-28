@@ -5,16 +5,16 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function AdvancedAgroManagement() {
   const tasks = [
     {
-      text: "Developed and Build a new version customizable website for Advanced Agro Management.",
-      keywords: ["Advanced Agro Management"],
+      text: "Développeur Freelance indépendant, devis, facturation, gestion de projet, développement front-end et back-end.",
+      keywords: ["Freelance", "devis", "facturation", "gestion de projet", "front-end", "back-end"],
     },
     {
-      text: "Monitored website performance and handled troubleshooting and WordPress issues.",
-      keywords: ["MOnitored","WordPress issues"],
+      text: "Perfectionnement et apprentissage des technologies web, notamment React, Next.js, Node.js, Express, MongoDB.",
+      keywords: ["React", "Next.js", "Node.js", "Express", "MongoDB"],
     },
     {
-      text: "Managed company WordPress website back-end with Oracle Database including plugins, tools, and themes.",
-      keywords: ["Oracle Database"],
+      text: "Perfectionnement des languages web courants, HTML, CSS, JS, PHP.",
+      keywords: ["HTML", "CSS", "JS", "PHP"],
     },
   ];
   return (
@@ -23,10 +23,10 @@ export default function AdvancedAgroManagement() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Developer <span className="text-AAsecondary">@ Wordpress</span>
+            Développeur Front-End <span className="text-AAsecondary">@ Freelance</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">june - August 2019</span>
+          <span className="font-mono text-xs text-gray-500">Depuis Février 2023</span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}

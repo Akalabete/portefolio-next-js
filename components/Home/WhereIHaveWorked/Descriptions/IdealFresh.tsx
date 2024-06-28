@@ -5,16 +5,16 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function IdealFresh() {
   const tasks = [
     {
-      text: "Designed and Built a Desktop app for IdealFresh that manage billings, client circumstances using Apache POI with Microsoft Office Excel.",
-      keywords: ["Apache POI"],
+      text: "Participation à la création du collectif Eulatech, développeurs & designer.",
+      keywords: ["création", "collectif", "Eulatech","développeurs", "designer"],
     },
     {
-      text: "Creating customized scripts for pulling, managing and refactoring files from Clouds.",
-      keywords: ["scripts"],
+      text: "Etude de projet, concrétisation.",
+      keywords: ["projet", "concrétisation"],
     },
     {
-      text: "Daily communications and interactions with a non-developers to solve their problems by providing technological solutions and expertise.",
-      keywords: ["non-developers"],
+      text: "Développement front-end, back-end, marketing, automatisation, design et prise de vue, notament par drones.",
+      keywords: ["front-end", "back-end", "design", "marketing", "automatisation", "drones"],
     },
   ];
   return (
@@ -23,10 +23,18 @@ export default function IdealFresh() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Developer <span className="text-AAsecondary">@ JavaFX</span>
+            Développeur Front-end <span className="text-AAsecondary">@ Eulatech</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">June - August 2021</span>
+          <span className="font-mono text-xs text-gray-500">depuis Juin 2024 </span>
+          <span
+            className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
+            style={{ fontSize: "0.6rem" }}
+            // set on click to open the website
+            onClick={() => window.open("https://www.eulatech.fr", "_blank")}
+          >
+            www.eulatech.fr
+          </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
             {/* Tasks Description 1 */}

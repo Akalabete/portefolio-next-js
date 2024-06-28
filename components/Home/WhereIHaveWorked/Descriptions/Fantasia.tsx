@@ -5,16 +5,16 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function Fantasia() {
   const tasks = [
     {
-      text: "Responsible for Windows Server 2008 r2 installs, configuration and support Active Directory, DNS, DHCP, WINS..",
-      keywords: ["Windows Server 2008"],
+      text: "Création d'un site vitrine pour un musicien professionnel, afin de promouvoir son activté.",
+      keywords: ["site vitrine", "musicien professionnel", "promouvoir"],
     },
     {
-      text: "Migration of Windows 2008 to Windows Server 2012 .",
-      keywords: ["Migration"],
+      text: "intégration de vidéos depuis youtube et création de design personnalisé",
+      keywords: ["intégration", "vidéos", "design personnalisé"],
     },
     {
-      text: "Responsible for Server full, differential and incremental backups using Veeam Endpoint Backup with SQL Server 2012.",
-      keywords: ["Veeam Endpoint Backup", "SQL Server 2012"],
+      text: "Optimisation du référencement naturel et des performances du site.",
+      keywords: ["Optimisation", "référencement naturel", "performances"],
     },
   ];
   return (
@@ -22,10 +22,18 @@ export default function Fantasia() {
       <div className="flex flex-col spacey-y-2">
         {/* Title */}
         <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-          Server Manager Assistant <span className="text-AAsecondary">@ Windows Server</span>
+          Webmaster <span className="text-AAsecondary">@ les notes</span>
         </span>
         {/* Date */}
         <span className="font-mono text-xs text-gray-500">June - July 2018</span>
+        <span
+            className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
+            style={{ fontSize: "0.6rem" }}
+            // set on click to open the website
+            onClick={() => window.open("https://www.les-notes-de-mon-moulin.fr", "_blank")}
+          >
+            www.les-notes-de-mon-moulin.fr
+          </span>
       </div>
       <div className="flex flex-col space-y-4 sm:text-sm text-xs">
       {tasks.map((item, index) => {

@@ -5,16 +5,16 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function TrouveTavoie() {
   const tasks = [
     {
-      text: "Spearhead & implemented a new design user workflow system for the Frond-End Architecture of a NFT Marketplace.",
-      keywords: ["NFT Marketplace"],
+      text: "Site vitrine pour location de gîtes et chambres d'hôtes. Développement front-end thème Wordpress custom.",
+      keywords: ["front-end", "vitrine", "JS", "WordPress"],
     },
     {
-      text: "Worked with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Next.js/React, AWS and Vercel.",
-      keywords: ["Next.js/React", "AWS", "Vercel"],
+      text: "Design responsive et dynamique pour une meilleure expérience utilisateur.",
+      keywords: ["HTML", "CSS", "Responsive", "dynamique", "expérience utilisateur"],
     },
     {
-      text: "Interfaced with developers on a daily basis, providing technological expertise.",
-      keywords: [],
+      text: "Optimisation des images, du SEO et des métadatas.",
+      keywords: ["SEO", "métadatas", "optimisation", "images"],
     },
   ];
 
@@ -24,15 +24,15 @@ export default function TrouveTavoie() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ Blockchain</span>
+            Webmaster <span className="text-AAsecondary"></span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>
+          <span className="font-mono text-xs text-gray-500">Mars - Avril 2024</span>
           <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
            // set on click to open the website
            onClick={() => window.open("https://www.trouvetavoie.io/", "_blank")}
           >
-            www.trouvetavoie.io
+            www.les-grands-chenes.info
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
