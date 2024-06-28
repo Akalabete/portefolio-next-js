@@ -105,7 +105,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           duration: props.finishedLoading ? 0 : 1.2,
           delay: props.finishedLoading ? 0 : 10.2,
         }}
-        // onClick={()=>{router.push("/resume.pdf")}}
+        // onClick={()=>{router.push("/CV.pdf")}}
         className="text-AAsecondary border border-spacing-2 py-2 px-3 rounded-sm border-AAsecondary hover:bg-ResumeButtonHover"
       >
         CV
