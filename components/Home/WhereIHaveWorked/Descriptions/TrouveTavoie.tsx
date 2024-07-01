@@ -30,7 +30,7 @@ export default function TrouveTavoie() {
           <span className="font-mono text-xs text-gray-500">Mars - Avril 2024</span>
           <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
            // set on click to open the website
-           onClick={() => window.open("https://www.trouvetavoie.io/", "_blank")}
+           onClick={() => window.open("https://www.les-grands-chenes.info/", "_blank")}
           >
             www.les-grands-chenes.info
           </span>

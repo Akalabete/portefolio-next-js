@@ -30,7 +30,7 @@ export default function FeverTokens() {
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
-            onClick={() => window.open("https:///www.fevertokens.io", "_blank")}
+            onClick={() => window.open("https:///www.ostal24.com", "_blank")}
           >
             www.ostal24.com
           </span>
