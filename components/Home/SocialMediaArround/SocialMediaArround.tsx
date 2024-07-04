@@ -34,7 +34,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Github Icon */}
             <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/Akalabete"} />
             {/* Linkedin icon */}
-            <IconClickableWithAnimation Icon={LinkedinIcon} href={"www.linkedin.com/in/lacour-alexandre"} />
+            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/lacour-alexandre"} />
             {/* Instagram Icon */}
             {/* <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/xredme/"} /> */}
             {/* Youtube Icon */}
@@ -64,7 +64,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
           >
             <a href="mailto:lacour_alexandre@proton.me" target={"_blank"} rel="noreferrer">
               <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
-                alexandre_lacour<span className="text-AAsecondary">@</span>proton<span className="text-AAsecondary">.</span>me
+                lacour_alexandre<span className="text-AAsecondary">@</span>proton<span className="text-AAsecondary">.</span>me
               </span>
             </a>
           </motion.div>
