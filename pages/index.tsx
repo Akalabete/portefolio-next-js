@@ -15,6 +15,7 @@ import "aos/dist/aos.css";
 import Head from "next/head";
 import ScreenSizeDetector from "../components/CustomComponents/ScreenSizeDetector";
 import Maintenance from "../components/Home/Maintenance/Maintenance";
+import TidioChat from "../components/ChatBot/Chatbot";
 export default function Home() {
   const [ShowElement, setShowElement] = useState(false);
   const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(true);
@@ -145,6 +146,7 @@ export default function Home() {
           {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
           {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
+          {context.sharedState.finishedLoading ? <TidioChat /> : <></>}
           {context.sharedState.finishedLoading ? (
             <Footer githubUrl={"https://github.com/Akalabete/portefolio-next-js"} hideSocialsInDesktop={true} />
           ) : (
