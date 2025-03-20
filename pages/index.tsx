@@ -106,7 +106,6 @@ export default function Home() {
     Aos.init({ duration: 2000, once: true });
   }, []);
 
-  console.log("website is rendering...");
   const meta = {
     title: "Alexandre LACOUR, Développeur Web",
     description: `Je produit et maintien des sites et des applications web percutantes.`,
