@@ -116,7 +116,7 @@ const CompaniesBar = props => {
         <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
             CompanyName="HDM canoë"
-            BarPosition={-12}
+            BarPosition={10}
             BarAvobePosition={1}
             DescriptionJob="HDM canoë"
             CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
@@ -125,8 +125,8 @@ const CompaniesBar = props => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
             CompanyName="Les Grands Chênes"
-            BarPosition={32}
-            BarAvobePosition={129}
+            BarPosition={70}
+            BarAvobePosition={180}
             DescriptionJob="Les Grands Chênes"
             CompanyNameBackgroundColorGreen={[false,true, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
@@ -134,7 +134,7 @@ const CompaniesBar = props => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
             CompanyName="Ostal Numérique"
-            BarPosition={76}
+            BarPosition={120}
             BarAvobePosition={257}
             DescriptionJob="Ostal Numérique"
             CompanyNameBackgroundColorGreen={[false,false, true, false, false, false]}
@@ -143,7 +143,7 @@ const CompaniesBar = props => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={4}
             CompanyName="Dev'your Synergy"
-            BarPosition={164}
+            BarPosition={165}
             BarAvobePosition={513}
             DescriptionJob="Dev'your Synergy"
             CompanyNameBackgroundColorGreen={[false, false, false, false, true, false]}
@@ -152,19 +152,10 @@ const CompaniesBar = props => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={5}
             CompanyName="Les notes de mon moulin"
-            BarPosition={208}
+            BarPosition={220}
             BarAvobePosition={641}
             DescriptionJob="Les notes de mon moulin"
             CompanyNameBackgroundColorGreen={[false, false, false, false, false, true]}
-            setDescriptionJob={props.setDescriptionJob}
-          />
-          <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={6}
-            CompanyName="OpenClassrooms"
-            BarPosition={252}
-            BarAvobePosition={769}
-            DescriptionJob="OpenClassrooms"
-            CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
           />
         </div>
