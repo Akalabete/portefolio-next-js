@@ -4,7 +4,7 @@ import MyName from "../components/Home/MyName/MyName";
 import { useContext, useEffect, useState, useRef } from "react";
 import SocialMediaArround from "../components/Home/SocialMediaArround/SocialMediaArround";
 import AboutMe from "../components/Home/AboutMe/AboutMe";
-import ThisCantBeReached from "../components/Home/ThisSiteCantBeReached/ThisCantBeReached";
+//import ThisCantBeReached from "../components/Home/ThisSiteCantBeReached/ThisCantBeReached";
 import WhereIHaveWorked from "../components/Home/WhereIHaveWorked/WhereIHaveWorked";
 import SomethingIveBuilt from "../components/Home/SomethingIveBuilt/SomethingIveBuilt";
 import GetInTouch from "../components/Home/GetInTouch/GetInTouch";
@@ -88,18 +88,18 @@ export default function Home() {
     }
     setTimeout(() => {
       setShowElement(true);
-    }, 4500);
+    }, 1000);
 
-    setTimeout(() => {
-      setShowThisCantBeReached(false);
-    }, 5400);
+    //setTimeout(() => {
+     // setShowThisCantBeReached(false);
+    //}, 5400);
     // ? INFORMATIONAL next function will show the component after changing the state of ShowMe
     setTimeout(() => {
       setShowElement(false);
       setShowMe(true);
       context.sharedState.finishedLoading = true;
       context.setSharedState(context.sharedState);
-    }, 10400);
+    }, 5400);
   }, [context, context.sharedState]);
 
   useEffect(() => {
@@ -136,7 +136,7 @@ export default function Home() {
 
       {!isBlackListed ? (
         <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full ">
-          {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}
+          {/*{context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}*/}
           {context.sharedState.finishedLoading ? <></> : ShowElement ? <Startup /> : <></>}
           <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />
           <MyName finishedLoading={context.sharedState.finishedLoading} />
