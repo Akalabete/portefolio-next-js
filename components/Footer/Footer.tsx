@@ -30,9 +30,6 @@ export default function Footer(props: { githubUrl: string; hideSocialsInDesktop:
         <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
           Dev&apos;your Synergy
         </span>
-        <a href="https://www.eulatech.fr" target="_blank" rel="noreferrer" className="group-hover:text-AAsecondary">
-          Eulatech
-        </a>
         <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">
           <GithubIcon className="w-4 h-4 text-gray-400 fill-current group-hover:text-AAsecondary" />
           <span>Source code - Github</span>
