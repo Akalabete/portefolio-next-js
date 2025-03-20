@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 
-const AboutMe = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>((props, ref) => {
+const AboutMe = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>(function AboutMe(props, ref) {
   const technologies = [
     ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "WordPress"],
     ["Node.js", "TypeScript", "Bootstrap", "Vue.js"],
