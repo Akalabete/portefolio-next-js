@@ -2,7 +2,7 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function Fantasia() {
+export default function LesNotes() {
   const tasks = [
     {
       text: "Création d'un site vitrine pour un musicien professionnel, afin de promouvoir son activté.",

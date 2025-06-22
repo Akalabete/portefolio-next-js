@@ -1,20 +1,19 @@
 import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
-
-export default function AdvancedAgroManagement() {
+export default function OstalNumerique() {
   const tasks = [
     {
-      text: "Développeur Freelance indépendant, devis, facturation, gestion de projet, développement front-end et back-end.",
-      keywords: ["Freelance", "devis", "facturation", "gestion de projet", "front-end", "back-end"],
+      text: "Rafraichissement du site de l'Ostal Numérique, tiers-lieu à Saint Aulaye.",
+      keywords: ["Ostal Numérique", "tiers-lieu", "rafraichissement"],
     },
     {
-      text: "Perfectionnement et apprentissage des technologies web, notamment React, Next.js, Node.js, Express, MongoDB.",
-      keywords: ["React", "Next.js", "Node.js", "Express", "MongoDB"],
+      text: "Mise en avant des ateliers de l'association",
+      keywords: ["Association", "ateliers"],
     },
     {
-      text: "Perfectionnement des languages web courants, HTML, CSS, JS, PHP.",
-      keywords: ["HTML", "CSS", "JS", "PHP"],
+      text: "Création de la page d'accueil, avec thème Wordpress custom. Développement front-end.",
+      keywords: ["front-end", "WordPress","page d'accueil"],
     },
   ];
   return (
@@ -23,10 +22,18 @@ export default function AdvancedAgroManagement() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Développeur Front-End <span className="text-AAsecondary">@ Freelance</span>
+            Webmaster <span className="text-AAsecondary"></span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Depuis Février 2023</span>
+          <span className="font-mono text-xs text-gray-500">Mars 2024</span>
+          <span
+            className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
+            // set text size on style attribute
+            style={{ fontSize: "0.6rem" }}
+            onClick={() => window.open("https:///www.ostal24.com", "_blank")}
+          >
+            www.ostal24.com
+          </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}

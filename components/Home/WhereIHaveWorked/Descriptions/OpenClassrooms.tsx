@@ -2,19 +2,19 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function TrouveTavoie() {
+export default function OpenClassrooms() {
   const tasks = [
     {
-      text: "Site vitrine pour location de gîtes et chambres d'hôtes. Développement front-end thème Wordpress custom.",
-      keywords: ["front-end", "vitrine", "JS", "WordPress"],
+      text: "Apprentissage des languages de programmation web, HTML, CSS, JS, REACTJs",
+      keywords: ["ReactJS", "CSS", "JS", "HTML"],
     },
     {
-      text: "Design responsive et dynamique pour une meilleure expérience utilisateur.",
-      keywords: ["HTML", "CSS", "Responsive", "dynamique", "expérience utilisateur"],
+      text: "Organisation, plannification et gestion de projet en méthodes Agiles.",
+      keywords: ["Agiles", "gestion de projet", "plannification", "organisation"],
     },
     {
-      text: "Optimisation des images, du SEO et des métadatas.",
-      keywords: ["SEO", "métadatas", "optimisation", "images"],
+      text: "Divers projets structurés en utilisant notamment, NextJs, Redux, Git...",
+      keywords: ["NextJs", "Redux", "Git"],
     },
   ];
 
@@ -24,16 +24,10 @@ export default function TrouveTavoie() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Webmaster <span className="text-AAsecondary"></span>
+            Etudiant <span className="text-AAsecondary">@ OpenClassrooms</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - Avril 2024</span>
-          <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
-           // set on click to open the website
-           onClick={() => window.open("https://www.les-grands-chenes.info/", "_blank")}
-          >
-            www.les-grands-chenes.info
-          </span>
+          <span className="font-mono text-xs text-gray-500">Février 2023 - Novembre 2023</span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}

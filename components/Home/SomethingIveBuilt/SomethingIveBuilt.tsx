@@ -151,13 +151,13 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  Le site web <span className="text-AAsecondary">Gite les grands chênes</span> est la vitrine
+                  Le site web <span className="text-AAsecondary">Les Grands Chênes</span> est la vitrine
                   d&apos;un gîte situé à Festalemps, en Dordogne. Il permet aux visiteurs de vérifier les disponibilités
-                  et de réserver sur <span className="text-AAsecondary">Abritel</span> il dispose de:{" "}
+                  et de réserver sur <span className="text-AAsecondary">Abritel</span> il dispose de: {" "}
                   <span className="text-AAsecondary"> carroussel dynamique,</span>
-                  <span className="text-AAsecondary"> avis clients</span>et d&apos;un excellent{" "}
-                  <span className="text-AAsecondary"> référencement naturel</span>pour apparaitre dans les moteurs malgré
-                  <span className="text-AAsecondary"> une forte résistance</span>sur les mots clés du secteur.
+                  <span className="text-AAsecondary"> avis clients</span> et d&apos;un excellent {" "}
+                  <span className="text-AAsecondary"> référencement naturel</span> pour apparaitre dans les moteurs malgré
+                  <span className="text-AAsecondary"> une forte résistance</span> sur les mots clés du secteur.
                 </p>
               </div>
               <ul

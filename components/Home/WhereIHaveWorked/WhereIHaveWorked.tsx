@@ -1,13 +1,12 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import TrouveTavoie from "./Descriptions/TrouveTavoie";
-import FeverTokens from "./Descriptions/FeverTokens";
-import IdealFresh from "./Descriptions/IdealFresh";
-import AdvancedAgroManagement from "./Descriptions/AdvancedAgroManagement";
-import Fantasia from "./Descriptions/Fantasia";
-import SuperBerry from "./Descriptions/SuperBerry";
-import EnsVision from "./Descriptions/EnsVision";
+import LesGrandsChenes from "./Descriptions/LesGrandsChenes";
+import OstalNumerique from "./Descriptions/OstalNumerique";
+import Freelance from "./Descriptions/Freelance";
+import LesNotes from "./Descriptions/LesNotes";
+import OpenClassrooms from "./Descriptions/OpenClassrooms";
+import HDMCanoe from "./Descriptions/HDMCanoe";
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
   // ? INFORMATIONAL control the green position using px,
@@ -15,19 +14,17 @@ export default function WhereIHaveWorked() {
   const GetDescription = () => {
     switch (DescriptionJob) {
       case "HDM canoë":
-        return <EnsVision />;
+        return <HDMCanoe />;
       case "Les Grands Chênes":
-        return <TrouveTavoie />;
+        return <LesGrandsChenes />;
       case "Ostal Numérique":
-        return <FeverTokens />;
-      case "Eulatech":
-        return <IdealFresh />;
+        return <OstalNumerique />;
       case "Dev'your Synergy":
-        return <AdvancedAgroManagement />;
+        return <Freelance />;
       case "Les notes de mon moulin":
-        return <Fantasia />;
+        return <LesNotes />;
       case "OpenClassrooms":
-        return <SuperBerry />;
+        return <OpenClassrooms />;
     }
   };
   const [DescriptionJob, setDescriptionJob] = React.useState("HDM canoë");
@@ -119,7 +116,7 @@ const CompaniesBar = props => {
         <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
             CompanyName="HDM canoë"
-            BarPosition={-12}
+            BarPosition={10}
             BarAvobePosition={1}
             DescriptionJob="HDM canoë"
             CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
@@ -128,8 +125,8 @@ const CompaniesBar = props => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
             CompanyName="Les Grands Chênes"
-            BarPosition={32}
-            BarAvobePosition={129}
+            BarPosition={70}
+            BarAvobePosition={180}
             DescriptionJob="Les Grands Chênes"
             CompanyNameBackgroundColorGreen={[false,true, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
@@ -137,25 +134,16 @@ const CompaniesBar = props => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
             CompanyName="Ostal Numérique"
-            BarPosition={76}
+            BarPosition={120}
             BarAvobePosition={257}
             DescriptionJob="Ostal Numérique"
             CompanyNameBackgroundColorGreen={[false,false, true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="Eulatech"
-            BarPosition={120}
-            BarAvobePosition={385}
-            DescriptionJob="Eulatech"
-            CompanyNameBackgroundColorGreen={[false, false, false, true, false, false]}
-            setDescriptionJob={props.setDescriptionJob}
-          />
-          <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={4}
             CompanyName="Dev'your Synergy"
-            BarPosition={164}
+            BarPosition={165}
             BarAvobePosition={513}
             DescriptionJob="Dev'your Synergy"
             CompanyNameBackgroundColorGreen={[false, false, false, false, true, false]}
@@ -164,19 +152,10 @@ const CompaniesBar = props => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={5}
             CompanyName="Les notes de mon moulin"
-            BarPosition={208}
+            BarPosition={220}
             BarAvobePosition={641}
             DescriptionJob="Les notes de mon moulin"
             CompanyNameBackgroundColorGreen={[false, false, false, false, false, true]}
-            setDescriptionJob={props.setDescriptionJob}
-          />
-          <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={6}
-            CompanyName="OpenClassrooms"
-            BarPosition={252}
-            BarAvobePosition={769}
-            DescriptionJob="OpenClassrooms"
-            CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
           />
         </div>

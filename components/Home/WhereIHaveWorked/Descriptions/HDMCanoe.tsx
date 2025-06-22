@@ -2,7 +2,7 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function EnsVision() {
+export default function HDMCanoe() {
   const tasks = [
     {
       text: "Etude de projet et mise en place d'une suite de solutions numériques avec HTML, CSS, JS, GUIDAP.",
